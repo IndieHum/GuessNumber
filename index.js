@@ -8,7 +8,6 @@ let TheNumber = null;
 
 function NumberToGuess() {
     TheNumber = Math.trunc(Math.random() * 100);
-    console.log(TheNumber);
 }
 
 function ValidateNumber() {
